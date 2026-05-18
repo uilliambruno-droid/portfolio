@@ -15,7 +15,7 @@
 
   function revealTargets() {
     return Array.from(document.querySelectorAll(
-      '.hero__media, .hero__text > *, .section h2, .section__intro, .section p, .panel, .portfolio__card, .contact-form, .contact-card'
+      '.hero__media, .hero__text > *, .section h2, .section__intro, .section p, .panel, .portfolio__card, .certificate-card, .contact-form, .contact-card'
     ));
   }
 

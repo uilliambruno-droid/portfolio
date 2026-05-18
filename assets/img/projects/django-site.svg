@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="django-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f3a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#django-bg)"/>
+  <rect width="1200" height="675" fill="#faad14" opacity="0.04"/>
+  <circle cx="150" cy="110" r="60" fill="none" stroke="#faad14" stroke-width="3" opacity="0.3"/>
+  <circle cx="150" cy="110" r="45" fill="none" stroke="#faad14" stroke-width="2" opacity="0.5"/>
+  <text x="150" y="120" font-size="28" fill="#faad14" text-anchor="middle" font-weight="bold">D</text>
+  <rect x="450" y="100" width="95" height="55" rx="5" fill="#faad14" opacity="0.2" stroke="#faad14" stroke-width="2"/>
+  <text x="497" y="133" font-size="13" fill="#faad14" text-anchor="middle" font-weight="bold">Models</text>
+  <rect x="450" y="175" width="95" height="55" rx="5" fill="#faad14" opacity="0.15" stroke="#faad14" stroke-width="2"/>
+  <text x="497" y="208" font-size="13" fill="#faad14" text-anchor="middle" font-weight="bold">Views</text>
+  <line x1="270" y1="170" x2="450" y2="160" stroke="#faad14" stroke-width="2" opacity="0.4"/>
+  <rect x="720" y="130" width="130" height="100" rx="6" fill="#faad14" opacity="0.15" stroke="#faad14" stroke-width="2"/>
+  <text x="785" y="160" font-size="13" fill="#faad14" text-anchor="middle" font-weight="bold">ORM Data</text>
+  <text x="785" y="185" font-size="12" fill="#faad14" text-anchor="middle">Modeling</text>
+  <text x="785" y="205" font-size="12" fill="#faad14" text-anchor="middle">SQLite</text>
+  <rect x="950" y="160" width="130" height="80" rx="6" fill="#faad14" opacity="0.12" stroke="#faad14" stroke-width="2"/>
+  <rect x="960" y="170" width="110" height="20" rx="3" fill="#faad14" opacity="0.3"/>
+  <line x1="960" y1="205" x2="1070" y2="205" stroke="#faad14" stroke-width="1" opacity="0.4"/>
+  <line x1="960" y1="220" x2="1070" y2="220" stroke="#faad14" stroke-width="1" opacity="0.4"/>
+  <text x="600" y="450" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">Django Site</text>
+  <text x="600" y="490" font-size="18" fill="#faad14" text-anchor="middle">ORM Structure &amp; Backend Architecture</text>
+  <rect x="300" y="550" width="110" height="40" rx="6" fill="#faad14" opacity="0.2" stroke="#faad14" stroke-width="1.5"/>
+  <text x="355" y="576" font-size="14" fill="#faad14" text-anchor="middle" font-weight="500">Django</text>
+  <rect x="450" y="550" width="90" height="40" rx="6" fill="#faad14" opacity="0.15" stroke="#faad14" stroke-width="1.5"/>
+  <text x="495" y="576" font-size="14" fill="#faad14" text-anchor="middle" font-weight="500">ORM</text>
+  <rect x="570" y="550" width="110" height="40" rx="6" fill="#d48806" opacity="0.2" stroke="#d48806" stroke-width="1.5"/>
+  <text x="625" y="576" font-size="14" fill="#d48806" text-anchor="middle" font-weight="500">SQLite</text>
+</svg>

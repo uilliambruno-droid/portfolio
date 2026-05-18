@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -19,6 +18,8 @@
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
 
     <link rel="stylesheet" href="./assets/css/freelancer-dark.css">
+    <link rel="stylesheet" href="./assets/css/sections/skills.css">
+    <link rel="stylesheet" href="./assets/css/sections/projects.css">
 </head>
 <body>
     <nav class="top-nav navbar navbar-expand-md navbar-dark">
@@ -38,11 +39,11 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
                 <ul class="navbar-nav mb-2 mb-md-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Journey</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Language</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -51,201 +52,419 @@
 
     <header class="hero" id="top">
         <div class="container hero__content">
-            <div class="hero__media">
-                <img class="hero__photo" src="./assets/img/my-photo.jpg" alt="Uilliam Santos" loading="lazy">
-            </div>
             <div class="hero__text">
-                <h1>Hello, I am Uilliam Santos</h1>
-                <p class="hero__role">Python Backend Developer</p>
-                <p class="hero__lead">Building APIs, automation and real-world solutions</p>
-                <p class="hero__transition">Transitioning from Real Estate to Tech • Business-driven mindset</p>
+                <p class="hero__eyebrow">Full Stack Developr | Automation & AI</p>
+                <h1><span class="hero__title-line">FROM IDEAS TO</span><span class="hero__title-accent">INTELLIGENT SYSTEMS.</span></h1>
+                <p class="hero__lead">Specialist in building scalable web solutions, automation systems and AI-driven experiences.</p>
                 <div class="hero__cta">
                     <a class="btn btn--primary" href="https://github.com/uilliambruno-droid/uilliambruno-droid/" target="_blank" rel="noopener">
                         <i class="bi bi-github"></i> View Projects
                     </a>
-                    <a class="btn btn--ghost" href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener">
-                        <i class="bi bi-whatsapp"></i> Contact Me
-                    </a>
-                </div>
-                <div class="hero__meta">
-                    <p><i class="bi bi-geo-alt-fill"></i> Dubai, UAE</p>
-                    <p><i class="bi bi-telephone-fill"></i> <a href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener">+971 58 564 5920</a></p>
-                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:uilliambruno@gmail.com">uilliambruno@gmail.com</a></p>
+                    <a href="https://github.com/uilliambruno-droid" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/uilliam-santos-2206b8375" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="about" class="section section--about container">
-            <h2>About Me</h2>
-            <p>I am a backend developer transitioning from real estate and investment consulting.</p>
-            <p>I focus on building APIs, automation tools and scalable systems using Python.</p>
-            <p>My background gives me a strong business perspective, allowing me to create solutions that solve real-world problems.</p>
-            <p>I work with a practical mindset, balancing clean architecture and fast delivery so products can create value early.</p>
-            <p>My goal is to help companies transform ideas into reliable backend systems that support growth and better decisions.</p>
+        <section id="experience" class="section container">
+            <div class="experience__layout">
+                <div class="experience__left">
+                    <div class="experience__photo-wrap">
+                        <img class="experience__photo" src="./assets/img/my-photo.jpg" alt="Uilliam Santos" loading="lazy">
+                        <div class="experience__photo-badge">
+                            <span class="about__status-dot"></span>
+                            Available for projects
+                        </div>
+                    </div>
+                    <div class="experience__bio">
+                        <div class="experience__bio-label">ABOUT ME</div>
+                        <h3><span class="experience__bio-title-line">HEY, I'M</span> <span class="experience__bio-title-accent">UILLIAM SANTOS.</span></h3>
+                        <p>Python Backend Developer with a practical mindset for building APIs, automation and scalable systems.</p>
+                        <p>My background in technology and business gives me strong perspective on solving real-world problems. I balance clean architecture with fast delivery so products create value early.</p>
+                        <p>My goal is to help companies transform ideas into reliable backend systems that support growth and better decisions.</p>
+                    </div>
+                </div>
+                <div class="experience__right">
+                    <div class="experience__header">
+                        <div class="experience__label">JOURNEY</div>
+                        <h2>MY <span class="experience__title-accent">TIMELINE.</span></h2>
+                    </div>
+                    <div class="timeline-wrapper">
+                        <article class="timeline-card">
+                            <div class="timeline-card__dot"><i class="bi bi-briefcase-fill"></i></div>
+                            <div class="timeline-card__body">
+                                <div class="timeline-card__top">
+                                    <span class="timeline-card__year">2025</span>
+                                    <span class="timeline-card__badge timeline-card__badge--work">WORK</span>
+                                </div>
+                                <h3 class="timeline-card__title">Freelance Data &amp; Automation Specialist</h3>
+                                <p class="timeline-card__company">Dubai, UAE • Feb 2025 - Present</p>
+                                <p class="timeline-card__desc">Developed Python automation tools that reduced manual reporting time by 30-50%. Worked with large datasets to extract insights, support data-driven decisions, streamline reporting workflows, and translate business requirements into structured data solutions.</p>
+                            </div>
+                        </article>
+                        <article class="timeline-card">
+                            <div class="timeline-card__dot"><i class="bi bi-rocket-takeoff-fill"></i></div>
+                            <div class="timeline-card__body">
+                                <div class="timeline-card__top">
+                                    <span class="timeline-card__year">2023</span>
+                                    <span class="timeline-card__badge timeline-card__badge--work">WORK</span>
+                                </div>
+                                <h3 class="timeline-card__title">Customer Service Manager</h3>
+                                <p class="timeline-card__company">Mema's Restaurant and Bar — Dublin</p>
+                                <p class="timeline-card__desc">Managed client feedback and daily operations, maintained accurate digital records and handled multitasking in a fast-paced environment.</p>
+                            </div>
+                        </article>
+                        <article class="timeline-card">
+                            <div class="timeline-card__dot timeline-card__dot--work"><i class="bi bi-trophy-fill"></i></div>
+                            <div class="timeline-card__body">
+                                <div class="timeline-card__top">
+                                    <span class="timeline-card__year">2020</span>
+                                    <span class="timeline-card__badge timeline-card__badge--work">WORK</span>
+                                </div>
+                                <h3 class="timeline-card__title">Digital Mentor & Entrepreneur</h3>
+                                <p class="timeline-card__company">Online — Remote</p>
+                                <p class="timeline-card__desc">Delivered coaching while managing CRM systems. Created automated email flows and analyzed engagement to improve operations at scale.</p>
+                            </div>
+                        </article>
+                        <article class="timeline-card">
+                            <div class="timeline-card__dot"><i class="bi bi-briefcase-fill"></i></div>
+                            <div class="timeline-card__body">
+                                <div class="timeline-card__top">
+                                    <span class="timeline-card__year">2015</span>
+                                    <span class="timeline-card__badge timeline-card__badge--work">WORK</span>
+                                </div>
+                                <h3 class="timeline-card__title">Software Developer</h3>
+                                <p class="timeline-card__company">CI&T — Campinas, Brazil</p>
+                                <p class="timeline-card__desc">Developed and maintained responsive web apps using JavaScript, HTML and CSS. Collaborated with designers and backend teams across multiple client projects.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="skills" class="section container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="panel">
-                    <h3>Professional</h3>
-                    <ul class="icon-list">
-                        <li><i class="bi bi-code-slash"></i> Python (APIs, scripting, automation)</li>
-                        <li><i class="bi bi-box-seam"></i> FastAPI / Flask (API development)</li>
-                        <li><i class="bi bi-rainbow"></i> REST APIs & Integrations</li>
-                        <li><i class="bi bi-database"></i> Database (PostgreSQL / SQLite)</li>
-                        <li><i class="bi bi-git"></i> Git & Version Control</li>
-                        <li><i class="bi bi-filetype-html"></i> HTML / CSS / JavaScript</li>
-                    </ul>
-                </div>
-                <div class="panel">
-                    <h3>Personal</h3>
-                    <ul class="icon-list">
-                        <li><i class="bi bi-chat-left-quote"></i> Communication & Negotiation</li>
-                        <li><i class="bi bi-people"></i> Client Relationship Management</li>
-                        <li><i class="bi bi-lightbulb"></i> Problem Solving</li>
-                        <li><i class="bi bi-arrow-repeat"></i> Adaptability & Fast Learning</li>
-                        <li><i class="bi bi-graph-up"></i> Sales & Business Mindset</li>
-                        <li><i class="bi bi-stopwatch"></i> Time Management</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            <div class="skills-tech">
+                <div class="skills-tech__layout">
+                    <div class="skills-tech__content">
+                        <div class="skills-tech__label">EXPERTISE</div>
+                        <h2 class="skills-tech__title">MY TECH <span>STACK.</span></h2>
+                        <p class="skills-tech__lead">Technical stack focused on backend APIs, web foundations, and practical data automation based on real project delivery.</p>
 
-        <section id="experience" class="section container">
-            <h2>Professional Experience</h2>
-            <div class="panel-stack">
-                <article class="panel">
-                    <h3>Software Developer — CI&T</h3>
-                    <p class="meta">Campinas, Brazil • 2015 - 2019</p>
-                    <p>Developed and maintained responsive websites and web applications using JavaScript, HTML and CSS. Collaborated with designers and backend developers to implement UI components; refactored legacy codebases to improve performance and maintainability. Delivered multiple client projects under tight deadlines.</p>
-                </article>
-                <article class="panel">
-                    <h3>Real Estate Consultant</h3>
-                    <p class="meta">Dubai, UAE • Feb 2025 - Present</p>
-                    <p>Built automated spreadsheets, dashboards and internal tools to support data-driven decision making. Worked with large datasets related to pricing, ROI analysis and market trends and translated business needs into technical solutions.</p>
-                </article>
-                <article class="panel">
-                    <h3>Customer Service Manager — Mema’s Restaurant and Bar</h3>
-                    <p class="meta">Dublin • 2023 - 2025</p>
-                    <p>Managed client feedback and daily operations, maintained accurate digital records and reports, and handled multitasking in a fast-paced environment.</p>
-                </article>
-                <article class="panel">
-                    <h3>Digital Mentor & Entrepreneur</h3>
-                    <p class="meta">Online Business — Remote • 2020 - 2022</p>
-                    <p>Delivered coaching while managing CRM systems and databases. Created automated email flows, organized client interactions and analyzed engagement to improve operations.</p>
-                </article>
-            </div>
-        </section>
+                        <div class="skills-tech__grid">
+                            <article class="skills-tech__card">
+                                <div class="skills-tech__icon"><i class="bi bi-translate"></i></div>
+                                <h3>Languages</h3>
+                                <ul class="skills-tech__chips">
+                                    <li>Python</li>
+                                    <li>JavaScript</li>
+                                    <li>TypeScript</li>
+                                    <li>PowerShell</li>
+                                </ul>
+                            </article>
 
-        <section id="education" class="section container">
-            <h2>Education</h2>
-            <div class="panel-stack">
-                <article class="panel">
-                    <h3>Faculdade de Tecnologia de São Paulo - FATEC-SP</h3>
-                    <p class="meta">Bachelor of Technology (BTech) — Information Technology</p>
-                </article>
-                <article class="panel">
-                    <h3>Certificates</h3>
-                    <ul class="icon-list">
-                        <li><i class="bi bi-award-fill"></i> Python Fundamentals — DIO (Feb 2026)</li>
-                        <li><i class="bi bi-award-fill"></i> Python Backend Developer Bootcamp — DIO (Mar 2026)</li>
-                    </ul>
-                </article>
-                <article class="panel">
-                    <h3>Languages</h3>
-                    <ul class="icon-list icon-list--inline icon-list--languages">
-                        <li><i class="bi bi-translate"></i> English</li>
-                        <li><i class="bi bi-translate"></i> Spanish</li>
-                        <li><i class="bi bi-translate"></i> Portuguese (BR)</li>
-                    </ul>
-                </article>
+                            <article class="skills-tech__card">
+                                <div class="skills-tech__icon"><i class="bi bi-cpu"></i></div>
+                                <h3>Frameworks</h3>
+                                <ul class="skills-tech__chips">
+                                    <li>Django</li>
+                                    <li>FastAPI</li>
+                                    <li>Flask</li>
+                                    <li>SQLAlchemy</li>
+                                </ul>
+                            </article>
+
+                            <article class="skills-tech__card">
+                                <div class="skills-tech__icon"><i class="bi bi-window"></i></div>
+                                <h3>Web</h3>
+                                <ul class="skills-tech__chips">
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>Responsive UI</li>
+                                </ul>
+                            </article>
+
+                            <article class="skills-tech__card">
+                                <div class="skills-tech__icon"><i class="bi bi-database"></i></div>
+                                <h3>Data</h3>
+                                <ul class="skills-tech__chips">
+                                    <li>JSON</li>
+                                    <li>CSV</li>
+                                    <li>Data Processing</li>
+                                    <li>ETL Workflows</li>
+                                    <li>Reporting Automation</li>
+                                </ul>
+                            </article>
+
+                            <article class="skills-tech__card">
+                                <div class="skills-tech__icon"><i class="bi bi-hdd-network"></i></div>
+                                <h3>Backend APIs</h3>
+                                <ul class="skills-tech__chips">
+                                    <li>REST APIs</li>
+                                    <li>JWT Auth</li>
+                                    <li>PostgreSQL</li>
+                                    <li>SQLite</li>
+                                    <li>Pytest</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="projects" class="section container">
-            <h2>Projects</h2>
+            <div class="projects-showcase__header">
+                <div class="projects-showcase__label">PORTFOLIO</div>
+                <h2 class="projects-showcase__title">RECENT <span>PROJECTS.</span></h2>
+                <p class="projects-showcase__intro">A curated selection of my real projects. Click any card to open details and preview image.</p>
+            </div>
             <div id="portfolioList" class="portfolio__list">
-                <p class="portfolio__loading">Loading GitHub projects...</p>
+                <p class="portfolio__loading">Loading projects...</p>
             </div>
         </section>
 
-        <section id="contact" class="section section--compact container">
-            <h2>Contact</h2>
-            <p class="section__intro">Send a message and I will get back to you soon.</p>
-            <form class="contact-form" id="contactForm" data-endpoint="https://formsubmit.co/ajax/uilliambruno@gmail.com" novalidate>
+        <section id="certificates" class="section container">
+            <h2>Certificates</h2>
+            <p class="section__intro">Professional certifications completed in 2026 with verified credential IDs.</p>
+            <div class="certificates-education">
+                <h3 class="certificates-education__title">Education</h3>
+                <article class="certificate-card certificate-card--education">
+                    <h3>Bachelor of Technology in Systems Analysis and Development</h3>
+                    <p>Fatec Arthur de Azevedo</p>
+                    <p>Sao Paulo, Brazil | 2012 - 2016</p>
+                </article>
+            </div>
+            <h3 class="certificates-education__title">Bootcamps</h3>
+            <div class="certificates-grid">
+                
+                <article class="certificate-card">
+                    <span class="certificate-card__issuer">DIO PRO</span>
+                    <h3>Python Fundamentals Track</h3>
+                    <p>Recipient: Uilliam Bruno De Lima Santos</p>
+                    <p>Issued: March 2, 2026</p>
+                    <p>Workload: 26 hours</p>
+                    <p>Credential ID: ESN1JCHM</p>
+                    <span class="certificate-card__cta">Verified Certificate</span>
+                </article>
+                <article class="certificate-card">
+                    <span class="certificate-card__issuer">LuizaLabs (Magalu) + DIO</span>
+                    <h3>LuizaLabs - Python Backend (2nd Edition)</h3>
+                    <p>Recipient: Uilliam Bruno De Lima Santos</p>
+                    <p>Issued: April 6, 2026</p>
+                    <p>Workload: 38 hours</p>
+                    <p>Credential ID: I9ZIM8X8</p>
+                    <span class="certificate-card__cta">Verified Certificate</span>
+                </article>
+                <article class="certificate-card">
+                    <span class="certificate-card__issuer">DIO PRO</span>
+                    <h3>Python Backend Developer Track</h3>
+                    <p>Recipient: Uilliam Bruno De Lima Santos</p>
+                    <p>Issued: March 24, 2026</p>
+                    <p>Workload: 35 hours</p>
+                    <p>Credential ID: SXXKMSPH</p>
+                    <span class="certificate-card__cta">Verified Certificate</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="languages" class="section container">
+            <div class="languages-layout">
+                <div class="languages__header">
+                    <div class="languages__label">COMMUNICATION</div>
+                    <h2>LANGUAGES I SPEAK.</h2>
+                    <p>Speaking multiple languages opens doors to global collaboration and richer understanding of diverse teams and cultures.</p>
+                </div>
+                <div class="languages__content">
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <div class="language-item__header">
+                                <span class="language-item__code">🇧🇷 Portuguese</span>
+                                <span class="language-item__level">100%</span>
+                            </div>
+                            <div class="language-item__bar">
+                                <div class="language-item__progress" style="width: 100%"></div>
+                            </div>
+                            <p class="language-item__label">Mother Language</p>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-item__header">
+                                <span class="language-item__code">🇺🇸 English</span>
+                                <span class="language-item__level">88%</span>
+                            </div>
+                            <div class="language-item__bar">
+                                <div class="language-item__progress" style="width: 88%"></div>
+                            </div>
+                            <p class="language-item__label">Advanced</p>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-item__header">
+                                <span class="language-item__code">🇪🇸 Spanish</span>
+                                <span class="language-item__level">55%</span>
+                            </div>
+                            <div class="language-item__bar">
+                                <div class="language-item__progress" style="width: 55%"></div>
+                            </div>
+                            <p class="language-item__label">Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="languages__highlight">
+                        <i class="bi bi-check-circle"></i>
+                        <span>Able to communicate professionally in English and collaborate globally with distributed teams.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section--compact container contact-section">
+            <div class="contact-header">
+                <div class="contact-header__label">GET IN TOUCH</div>
+                <h2 class="contact-header__title">LET'S BUILD SOMETHING <span>GREAT TOGETHER.</span></h2>
+                <p class="section__intro contact-header__intro">Have a challenging idea or project in mind? I'm always open to new collaborations. Reach out through any of the channels below.</p>
+            </div>
+
+            <div class="contact-grid contact-grid--channels">
+                <a class="contact-card contact-card--channel" href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener">
+                    <span class="contact-card__icon"><i class="bi bi-whatsapp"></i></span>
+                    <span class="contact-card__label">WHATSAPP</span>
+                    <span class="contact-card__value">Chat with me</span>
+                    <span class="contact-card__badge">ONLINE</span>
+                </a>
+                <a class="contact-card contact-card--channel" href="mailto:uilliambruno@gmail.com">
+                    <span class="contact-card__icon"><i class="bi bi-envelope"></i></span>
+                    <span class="contact-card__label">E-MAIL</span>
+                    <span class="contact-card__value">uilliambruno@gmail.com</span>
+                    <span class="contact-card__badge">24H RESPONSE</span>
+                </a>
+                <a class="contact-card contact-card--channel" href="https://www.fiverr.com/s/5rj9mo7" target="_blank" rel="noopener">
+                    <span class="contact-card__icon"><i class="bi bi-stars"></i></span>
+                    <span class="contact-card__label">FIVERR</span>
+                    <span class="contact-card__value">Hire me on Fiverr</span>
+                    <span class="contact-card__badge">LEVEL 2 SELLER</span>
+                </a>
+            </div>
+
+            <form class="contact-form contact-form--dark" id="contactForm" data-endpoint="https://formsubmit.co/ajax/uilliambruno@gmail.com" novalidate>
+                <h3>Send a quick message</h3>
+                <p class="contact-form__lead">Prefer a form? I'll get back to you within 24 hours.</p>
                 <div class="row g-3 w-100 m-0">
                     <div class="col-12 col-md-6 px-0 pe-md-2">
-                        <label class="form-label text-light" for="contactName">Name</label>
+                        <label class="form-label" for="contactName">Name</label>
                         <input id="contactName" type="text" name="name" class="form-control" placeholder="Your name" required>
                     </div>
                     <div class="col-12 col-md-6 px-0 ps-md-2">
-                        <label class="form-label text-light" for="contactEmail">Email</label>
+                        <label class="form-label" for="contactEmail">Email</label>
                         <input id="contactEmail" type="email" name="email" class="form-control" placeholder="you@example.com" required>
                     </div>
                     <div class="col-12 px-0">
-                        <label class="form-label text-light" for="contactMessage">Message</label>
+                        <label class="form-label" for="contactMessage">Message</label>
                         <textarea id="contactMessage" name="message" rows="5" class="form-control" placeholder="Tell me about your project" required></textarea>
                     </div>
                     <div class="col-12 px-0">
-                        <button type="submit" class="btn btn--primary btn-send">Send Message</button>
+                        <button type="submit" class="btn btn--primary btn-send">Send Message <i class="bi bi-send"></i></button>
                     </div>
                     <div class="col-12 px-0">
                         <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
                     </div>
                 </div>
             </form>
-            <div class="contact-grid">
-                <a class="contact-card" href="mailto:uilliambruno@gmail.com">
-                    <i class="bi bi-envelope-fill"></i>
-                    <span>Email Me</span>
-                </a>
-                <a class="contact-card" href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener">
-                    <i class="bi bi-whatsapp"></i>
-                    <span>WhatsApp</span>
-                </a>
-                <a class="contact-card" href="https://www.fiverr.com/s/5rj9mo7" target="_blank" rel="noopener">
-                    <i class="bi bi-briefcase-fill"></i>
-                    <span>Hire me on Fiverr</span>
-                </a>
-            </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer__content">
-            <div>
-                <h4>Uilliam Santos</h4>
-                <p>Python Backend Developer focused on APIs, automation and business-driven solutions.</p>
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content details-modal">
+                <div class="modal-header">
+                    <div>
+                        <p class="details-modal__type" id="detailsModalType">Details</p>
+                        <h3 class="modal-title" id="detailsModalTitle">Title</h3>
+                        <p class="details-modal__subtitle" id="detailsModalSubtitle">Subtitle</p>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="details-modal__media" id="detailsModalMedia" style="max-width: 280px; margin-bottom: 1.5rem;">
+                        <img id="detailsModalImage" src="./assets/img/project-placeholder.svg" alt="Project preview" loading="lazy" style="max-width: 100%;">
+                    </div>
+                    <p id="detailsModalDescription" style="line-height: 1.6; margin-bottom: 1.5rem;"></p>
+                    
+                    <div id="detailsModalArchSection" style="margin-bottom: 1.5rem;">
+                        <h5 style="color: #5fa3ff; margin-bottom: 0.75rem; font-size: 0.95rem; font-weight: 600;">Architecture &amp; Tech Stack</h5>
+                        <ul id="detailsModalArchitecture" style="padding-left: 1.25rem; margin-bottom: 0;"></ul>
+                    </div>
+                    
+                    <div id="detailsModalFuncSection" style="margin-bottom: 1.5rem;">
+                        <h5 style="color: #5fa3ff; margin-bottom: 0.75rem; font-size: 0.95rem; font-weight: 600;">Key Features</h5>
+                        <ul id="detailsModalFunctionality" style="padding-left: 1.25rem; margin-bottom: 0;"></ul>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-start gap-2">
+                    <a id="detailsModalLink" class="btn btn--primary" href="#" target="_blank" rel="noopener">View on GitHub</a>
+                    <a id="detailsModalDemoLink" class="btn btn--primary" href="#" target="_blank" rel="noopener" style="display: none;">Live Demo</a>
+                </div>
             </div>
-            <div>
-                <h4>Quick Links</h4>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__content footer__content--contact">
+            <div class="footer__section">
+                <h4>DEV.</h4>
+                <p>Crafting high-performance digital experiences with modern technology and pixel-perfect precision.</p>
+                <p class="footer__meta"><i class="bi bi-geo-alt"></i> Dubai, UAE <span class="footer__dot"></span> Available</p>
+            </div>
+            <div class="footer__section">
+                <h4>Navigation</h4>
                 <ul class="footer__list">
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Journey</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#languages">Languages</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__section">
                 <h4>Contact</h4>
                 <ul class="footer__list">
-                    <li><a href="mailto:uilliambruno@gmail.com">uilliambruno@gmail.com</a></li>
-                    <li><a href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener">WhatsApp</a></li>
-                    <li><a href="https://github.com/uilliambruno-droid" target="_blank" rel="noopener">GitHub Profile</a></li>
+                    <li><a href="mailto:uilliambruno@gmail.com"><i class="bi bi-envelope"></i> uilliambruno@gmail.com</a></li>
+                    <li><a href="https://wa.me/971585645920" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> +971 58 564 5920</a></li>
+                    <li><span><i class="bi bi-geo-alt"></i> Dubai, UAE</span></li>
+                    <li><span><i class="bi bi-globe"></i> Available Worldwide</span></li>
                 </ul>
+            </div>
+            <div class="footer__section">
+                <h4>Follow Me</h4>
+                <div class="footer__socials">
+                    <a href="https://github.com/uilliambruno-droid" target="_blank" rel="noopener" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/uilliambruno/" target="_blank" rel="noopener" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/971585645920?text=Hello%20Uilliam" target="_blank" rel="noopener" title="WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="mailto:uilliambruno@gmail.com" title="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+                <a class="btn btn--ghost footer__hire" href="mailto:uilliambruno@gmail.com"><i class="bi bi-envelope"></i> Hire Me</a>
             </div>
         </div>
         <div class="footer__bottom">
             <span>© 2026 Uilliam Santos</span>
-            <span>Built with HTML, CSS and JavaScript</span>
+            <span>Built with passion and clean code</span>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/parallax.js" defer></script>
+    <script src="./assets/js/modals.js" defer></script>
+    <script src="./assets/js/projects-data.js" defer></script>
     <script src="./assets/js/portfolio.js" defer></script>
     <script src="./assets/js/contact-form.js" defer></script>
 </body>

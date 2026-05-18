@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mamba-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f3a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#mamba-bg)"/>
+  <rect width="1200" height="675" fill="#13c2c2" opacity="0.04"/>
+  <rect x="150" y="140" width="80" height="120" rx="4" fill="#13c2c2" opacity="0.25" stroke="#13c2c2" stroke-width="2"/>
+  <line x1="160" y1="170" x2="220" y2="170" stroke="#13c2c2" stroke-width="1.5" opacity="0.5"/>
+  <line x1="160" y1="190" x2="220" y2="190" stroke="#13c2c2" stroke-width="1.5" opacity="0.5"/>
+  <rect x="300" y="120" width="80" height="120" rx="4" fill="#13c2c2" opacity="0.3" stroke="#13c2c2" stroke-width="2"/>
+  <line x1="310" y1="150" x2="370" y2="150" stroke="#13c2c2" stroke-width="1.5" opacity="0.6"/>
+  <line x1="310" y1="170" x2="370" y2="170" stroke="#13c2c2" stroke-width="1.5" opacity="0.6"/>
+  <line x1="310" y1="190" x2="370" y2="190" stroke="#13c2c2" stroke-width="1.5" opacity="0.6"/>
+  <rect x="420" y="140" width="80" height="120" rx="4" fill="#0a8f8f" opacity="0.25" stroke="#0a8f8f" stroke-width="2"/>
+  <line x1="430" y1="170" x2="490" y2="170" stroke="#0a8f8f" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="700" cy="200" r="60" fill="#13c2c2" opacity="0.15" stroke="#13c2c2" stroke-width="2"/>
+  <circle cx="700" cy="200" r="40" fill="none" stroke="#13c2c2" stroke-width="2" opacity="0.4"/>
+  <text x="700" y="210" font-size="22" fill="#13c2c2" text-anchor="middle" font-weight="bold">NLM</text>
+  <line x1="500" y1="200" x2="640" y2="200" stroke="#13c2c2" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="760" y1="200" x2="880" y2="200" stroke="#13c2c2" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <rect x="880" y="140" width="130" height="120" rx="6" fill="#13c2c2" opacity="0.12" stroke="#13c2c2" stroke-width="2"/>
+  <text x="945" y="170" font-size="13" fill="#13c2c2" text-anchor="middle" font-weight="bold">Structured</text>
+  <text x="945" y="195" font-size="13" fill="#13c2c2" text-anchor="middle">Content</text>
+  <text x="945" y="220" font-size="13" fill="#13c2c2" text-anchor="middle">Organization</text>
+  <text x="600" y="450" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">Mamba Mentality NotebookLM</text>
+  <text x="600" y="490" font-size="18" fill="#13c2c2" text-anchor="middle">Knowledge Workflows &amp; Research Structure</text>
+  <rect x="300" y="550" width="100" height="40" rx="6" fill="#13c2c2" opacity="0.2" stroke="#13c2c2" stroke-width="1.5"/>
+  <text x="350" y="576" font-size="14" fill="#13c2c2" text-anchor="middle" font-weight="500">Knowledge</text>
+  <rect x="440" y="550" width="110" height="40" rx="6" fill="#13c2c2" opacity="0.15" stroke="#13c2c2" stroke-width="1.5"/>
+  <text x="495" y="576" font-size="14" fill="#13c2c2" text-anchor="middle" font-weight="500">Workflow</text>
+  <rect x="580" y="550" width="100" height="40" rx="6" fill="#0a8f8f" opacity="0.2" stroke="#0a8f8f" stroke-width="1.5"/>
+  <text x="630" y="576" font-size="14" fill="#0a8f8f" text-anchor="middle" font-weight="500">Research</text>
+</svg>

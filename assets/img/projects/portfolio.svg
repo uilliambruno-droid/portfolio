@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5fa3ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d7fcf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#grad8)"/>
+  
+  <!-- Blue overlay -->
+  <rect width="1200" height="675" fill="url(#accent8)" opacity="0.04"/>
+  
+  <!-- HTML/CSS/JS trinity -->
+  <g transform="translate(150, 100)">
+    <!-- HTML box -->
+    <rect x="0" y="0" width="90" height="90" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="2"/>
+    <text x="45" y="50" font-size="20" fill="#5fa3ff" text-anchor="middle" font-weight="bold">&lt;&gt;</text>
+    
+    <!-- CSS box -->
+    <rect x="110" y="0" width="90" height="90" rx="6" fill="#3d7fcf" opacity="0.25" stroke="#3d7fcf" stroke-width="2"/>
+    <text x="155" y="50" font-size="20" fill="#3d7fcf" text-anchor="middle" font-weight="bold">{ }</text>
+    
+    <!-- JS box -->
+    <rect x="220" y="0" width="90" height="90" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="2"/>
+    <text x="265" y="50" font-size="20" fill="#5fa3ff" text-anchor="middle" font-weight="bold">( )</text>
+  </g>
+  
+  <!-- Custom design system -->
+  <g transform="translate(600, 120)">
+    <rect x="0" y="0" width="180" height="100" rx="6" fill="#5fa3ff" opacity="0.15" stroke="#5fa3ff" stroke-width="2"/>
+    <text x="90" y="30" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="bold">Design System</text>
+    <circle cx="40" cy="65" r="12" fill="#5fa3ff" opacity="0.5"/>
+    <circle cx="90" cy="65" r="12" fill="#5fa3ff" opacity="0.7"/>
+    <circle cx="140" cy="65" r="12" fill="#5fa3ff" opacity="0.3"/>
+  </g>
+  
+  <!-- Modals -->
+  <g transform="translate(150, 240)">
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="#3d7fcf" opacity="0.2" stroke="#3d7fcf" stroke-width="2"/>
+    <rect x="5" y="5" width="90" height="15" rx="3" fill="#3d7fcf" opacity="0.4"/>
+    <line x1="5" y1="30" x2="95" y2="30" stroke="#3d7fcf" stroke-width="1" opacity="0.4"/>
+    <line x1="5" y1="45" x2="95" y2="45" stroke="#3d7fcf" stroke-width="1" opacity="0.4"/>
+    <text x="50" y="85" font-size="11" fill="#3d7fcf" text-anchor="middle" font-weight="bold">Modals</text>
+  </g>
+  
+  <!-- Responsive layout -->
+  <g transform="translate(900, 200)">
+    <rect x="0" y="0" width="140" height="110" rx="6" fill="#5fa3ff" opacity="0.12" stroke="#5fa3ff" stroke-width="2"/>
+    <text x="70" y="30" font-size="13" fill="#5fa3ff" text-anchor="middle" font-weight="bold">Responsive</text>
+    <text x="70" y="55" font-size="12" fill="#5fa3ff" text-anchor="middle">Layout</text>
+    <text x="70" y="75" font-size="12" fill="#5fa3ff" text-anchor="middle">Structure</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="450" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">Portfolio Website</text>
+  <text x="600" y="490" font-size="18" fill="#5fa3ff" text-anchor="middle">Custom Dark Design with Modal System</text>
+  
+  <!-- Tech tags -->
+  <g transform="translate(280, 550)">
+    <rect width="100" height="40" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="1.5"/>
+    <text x="50" y="26" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="500">HTML5</text>
+  </g>
+  
+  <g transform="translate(420, 550)">
+    <rect width="90" height="40" rx="6" fill="#5fa3ff" opacity="0.15" stroke="#5fa3ff" stroke-width="1.5"/>
+    <text x="45" y="26" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="500">CSS3</text>
+  </g>
+  
+  <g transform="translate(540, 550)">
+    <rect width="130" height="40" rx="6" fill="#3d7fcf" opacity="0.2" stroke="#3d7fcf" stroke-width="1.5"/>
+    <text x="65" y="26" font-size="14" fill="#3d7fcf" text-anchor="middle" font-weight="500">JavaScript</text>
+  </g>
+</svg>

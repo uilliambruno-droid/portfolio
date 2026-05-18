@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5fa3ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d7fcf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#grad1)"/>
+  
+  <!-- Grid background pattern -->
+  <g stroke="#5fa3ff" stroke-width="1" opacity="0.1">
+    <line x1="0" y1="0" x2="1200" y2="0"/>
+    <line x1="0" y1="67" x2="1200" y2="67"/>
+    <line x1="0" y1="134" x2="1200" y2="134"/>
+    <line x1="0" y1="201" x2="1200" y2="201"/>
+    <line x1="0" y1="268" x2="1200" y2="268"/>
+    <line x1="0" y1="335" x2="1200" y2="335"/>
+    <line x1="0" y1="402" x2="1200" y2="402"/>
+    <line x1="0" y1="469" x2="1200" y2="469"/>
+    <line x1="0" y1="536" x2="1200" y2="536"/>
+    <line x1="0" y1="603" x2="1200" y2="603"/>
+    <line x1="0" y1="675" x2="1200" y2="675"/>
+    
+    <line x1="0" y1="0" x2="0" y2="675"/>
+    <line x1="150" y1="0" x2="150" y2="675"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="450" y1="0" x2="450" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="750" y1="0" x2="750" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+    <line x1="1050" y1="0" x2="1050" y2="675"/>
+    <line x1="1200" y1="0" x2="1200" y2="675"/>
+  </g>
+  
+  <!-- TypeScript component -->
+  <rect x="150" y="100" width="200" height="200" rx="8" fill="#5fa3ff" opacity="0.15" stroke="#5fa3ff" stroke-width="2"/>
+  <text x="250" y="185" font-size="48" font-weight="bold" fill="#5fa3ff" text-anchor="middle">TS</text>
+  <text x="250" y="230" font-size="16" fill="#5fa3ff" text-anchor="middle" opacity="0.8">TypeScript</text>
+  
+  <!-- Frontend layers -->
+  <g transform="translate(600, 150)">
+    <rect x="0" y="0" width="120" height="60" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="2"/>
+    <text x="60" y="38" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="bold">Frontend</text>
+    
+    <rect x="0" y="80" width="120" height="60" rx="6" fill="#3d7fcf" opacity="0.2" stroke="#3d7fcf" stroke-width="2"/>
+    <text x="60" y="118" font-size="14" fill="#3d7fcf" text-anchor="middle" font-weight="bold">UI Layer</text>
+  </g>
+  
+  <!-- Checkmark icon -->
+  <g transform="translate(950, 180)">
+    <circle cx="50" cy="50" r="50" fill="none" stroke="#5fa3ff" stroke-width="3" opacity="0.5"/>
+    <path d="M 30 50 L 45 65 L 70 35" stroke="#5fa3ff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="450" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">PropPilot Take Home</text>
+  <text x="600" y="490" font-size="18" fill="#5fa3ff" text-anchor="middle">Clean Architecture Frontend Challenge</text>
+  
+  <!-- Tech tags -->
+  <g transform="translate(350, 550)">
+    <rect width="120" height="40" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="1.5"/>
+    <text x="60" y="26" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="500">TypeScript</text>
+  </g>
+  
+  <g transform="translate(500, 550)">
+    <rect width="100" height="40" rx="6" fill="#3d7fcf" opacity="0.2" stroke="#3d7fcf" stroke-width="1.5"/>
+    <text x="50" y="26" font-size="14" fill="#3d7fcf" text-anchor="middle" font-weight="500">Vercel</text>
+  </g>
+  
+  <g transform="translate(630, 550)">
+    <rect width="110" height="40" rx="6" fill="#5fa3ff" opacity="0.2" stroke="#5fa3ff" stroke-width="1.5"/>
+    <text x="55" y="26" font-size="14" fill="#5fa3ff" text-anchor="middle" font-weight="500">Frontend</text>
+  </g>
+</svg>

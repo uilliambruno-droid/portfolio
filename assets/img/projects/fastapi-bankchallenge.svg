@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#52c41a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d8c0f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="675" fill="url(#grad9)"/>
+  
+  <!-- Green overlay -->
+  <rect width="1200" height="675" fill="url(#accent9)" opacity="0.04"/>
+  
+  <!-- FastAPI logo representation -->
+  <g transform="translate(150, 120)">
+    <rect x="0" y="0" width="140" height="140" rx="8" fill="#52c41a" opacity="0.15" stroke="#52c41a" stroke-width="2"/>
+    <text x="70" y="75" font-size="28" fill="#52c41a" text-anchor="middle" font-weight="bold">API</text>
+  </g>
+  
+  <!-- Transaction flow -->
+  <g transform="translate(450, 100)">
+    <!-- In -->
+    <rect x="0" y="0" width="100" height="55" rx="5" fill="#52c41a" opacity="0.2" stroke="#52c41a" stroke-width="2"/>
+    <text x="50" y="33" font-size="12" fill="#52c41a" text-anchor="middle" font-weight="bold">In Flow</text>
+    
+    <!-- Out -->
+    <rect x="0" y="75" width="100" height="55" rx="5" fill="#52c41a" opacity="0.15" stroke="#52c41a" stroke-width="2"/>
+    <text x="50" y="108" font-size="12" fill="#52c41a" text-anchor="middle" font-weight="bold">Out Flow</text>
+  </g>
+  
+  <!-- Database with locks -->
+  <g transform="translate(750, 140)">
+    <rect x="0" y="0" width="110" height="80" rx="6" fill="#52c41a" opacity="0.2" stroke="#52c41a" stroke-width="2"/>
+    <rect x="10" y="10" width="90" height="35" rx="4" fill="#52c41a" opacity="0.15"/>
+    <circle cx="55" cy="80" r="12" fill="#52c41a" opacity="0.4" stroke="#52c41a" stroke-width="2"/>
+    <text x="55" y="85" font-size="10" fill="#52c41a" text-anchor="middle" font-weight="bold">DB</text>
+  </g>
+  
+  <!-- Auth badge -->
+  <g transform="translate(950, 170)">
+    <circle cx="35" cy="35" r="35" fill="#52c41a" opacity="0.15" stroke="#52c41a" stroke-width="2"/>
+    <text x="35" y="42" font-size="18" fill="#52c41a" text-anchor="middle" font-weight="bold">🔐</text>
+    <text x="35" y="85" font-size="12" fill="#52c41a" text-anchor="middle" font-weight="bold">JWT Auth</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="450" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">FastAPI Bank Challenge</text>
+  <text x="600" y="490" font-size="18" fill="#52c41a" text-anchor="middle">Banking API with Secure Transactions</text>
+  
+  <!-- Tech tags -->
+  <g transform="translate(280, 550)">
+    <rect width="110" height="40" rx="6" fill="#52c41a" opacity="0.2" stroke="#52c41a" stroke-width="1.5"/>
+    <text x="55" y="26" font-size="14" fill="#52c41a" text-anchor="middle" font-weight="500">FastAPI</text>
+  </g>
+  
+  <g transform="translate(430, 550)">
+    <rect width="80" height="40" rx="6" fill="#52c41a" opacity="0.15" stroke="#52c41a" stroke-width="1.5"/>
+    <text x="40" y="26" font-size="14" fill="#52c41a" text-anchor="middle" font-weight="500">JWT</text>
+  </g>
+  
+  <g transform="translate(550, 550)">
+    <rect width="130" height="40" rx="6" fill="#3d8c0f" opacity="0.2" stroke="#3d8c0f" stroke-width="1.5"/>
+    <text x="65" y="26" font-size="14" fill="#3d8c0f" text-anchor="middle" font-weight="500">SQLAlchemy</text>
+  </g>
+</svg>
