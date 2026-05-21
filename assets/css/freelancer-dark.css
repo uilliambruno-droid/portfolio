@@ -645,6 +645,7 @@ body {
   font-weight: 700;
   font-size: 1.05rem;
   text-align: center;
+  word-break: break-word;
 }
 
 .contact-card__badge {
@@ -1435,7 +1436,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .footer__content--contact {
+  .footer__content.footer__content--contact {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1444,12 +1445,6 @@ body {
     gap: 1.35rem;
   }
 
-
-@media (max-width: 640px) {
-  .footer__content--contact {
-    grid-template-columns: 1fr;
-  }
-}
   .about__content {
     grid-template-columns: 1fr;
   }
@@ -1462,6 +1457,83 @@ body {
 
   .footer__content {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100%, 98%);
+  }
+
+  .footer__content,
+  .footer__bottom {
+    width: min(100%, 98%);
+  }
+
+  .hero {
+    padding: 5.5rem 1% 3rem;
+  }
+
+  .section {
+    padding: 4.3rem 1% 3.5rem;
+  }
+
+  .footer__content.footer__content--contact {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer__section {
+    gap: 0.45rem;
+  }
+
+  .footer__list a,
+  .footer__list span {
+    align-items: flex-start;
+    line-height: 1.35;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .footer__socials {
+    flex-wrap: wrap;
+  }
+
+  .footer__hire {
+    justify-self: start;
+    width: fit-content;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .contact-card--channel {
+    min-height: 160px;
+    padding: 1rem;
+  }
+
+  .contact-card__icon {
+    width: 56px;
+    height: 56px;
+    font-size: 1.65rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .contact-card__value {
+    font-size: 0.95rem;
+  }
+
+  .contact-card__label {
+    font-size: 0.7rem;
+  }
+
+  .contact-card__badge {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
   }
 }
 
@@ -1489,13 +1561,12 @@ body {
 
   .hero {
     min-height: auto;
-    padding-top: 5.5rem;
+    padding: 5.5rem 1.5% 3rem;
   }
 
   .section {
     min-height: auto;
-    padding-top: 4.3rem;
-    padding-bottom: 3.5rem;
+    padding: 4.3rem 1.5% 3.5rem;
   }
 
   .hero__photo {
