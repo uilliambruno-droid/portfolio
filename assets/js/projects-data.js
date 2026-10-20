@@ -126,7 +126,7 @@
       "Deduplication",
       "Inspectable outputs"
     ],
-    "image": "./assets/img/projects/hermes-etl.svg",
+    "image": "./assets/img/project-placeholder.svg",
     "link": "https://github.com/uilliambruno-droid/hermes-etl"
   },
   {
